@@ -1,6 +1,6 @@
 CC = c++
 CFLAGS = -std=c++17 -Wall -Wextra -Werror
-SRC = main.cpp
+SRC = main.cpp RPN.cpp
 OBJ = $(SRC:.cpp=.o)
 NAME = RPN
 
