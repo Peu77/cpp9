@@ -1,5 +1,5 @@
 CC = c++
-CFLAGS = -std=c++17# -Wall -Wextra -Werror
+CFLAGS = -std=c++17 -Wall -Wextra -Werror
 SRC = main.cpp BitcoinExchange.cpp
 OBJ = $(SRC:.cpp=.o)
 NAME = btc
