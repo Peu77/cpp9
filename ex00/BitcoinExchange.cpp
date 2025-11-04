@@ -94,7 +94,7 @@ bool BitcoinExchange::processInputFile(std::ifstream &inputFile) {
         size_t errorColumn;
         if (!isValidInputLine(line, errorMsg, errorColumn)) {
             displayError(errorMsg, line, errorColumn, lineNumber);
-            return false;
+            continue;
         }
 
         const size_t pipePos = line.find(INPUT_SEPARATOR);
